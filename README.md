@@ -1,3 +1,5 @@
+# ARIGALA LAVANYA
+#212222060019
 # EXPERIMENT-2-OPTICAL-COMMUNICATION
 ## 🔍 EX.NO: 2 – Verification of Fiber Losses
 
@@ -41,3 +43,10 @@ V1/V2 = e [ -a (L1+L2 ) ]
 Attenuation and bending loss characteristics verified.
 
 ---
+[exp2.pdf](https://github.com/user-attachments/files/23599087/exp2.pdf)
+
+[EXP2b.pdf](https://github.com/user-attachments/files/23599105/EXP2b.pdf)
+
+[exp 2c.pdf](https://github.com/user-attachments/files/23599107/exp.2c.pdf)
+
+[exp2d.pdf](https://github.com/user-attachments/files/23599109/exp2d.pdf)
