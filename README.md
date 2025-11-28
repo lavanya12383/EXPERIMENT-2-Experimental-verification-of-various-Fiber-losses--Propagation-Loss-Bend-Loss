@@ -44,7 +44,8 @@ V1/V2 = e [ -a (L1+L2 ) ]
 |                  |                     |                        |
 
 **Result:**  
-![Uploading WhatsApp Image 2025-11-28 at 10.03.38_94bfff72.jpg…]()
+![WhatsApp Image 2025-11-28 at 10 03 38_94bfff72](https://github.com/user-attachments/assets/4730317c-8850-4fcf-a5ea-deef30651a27)
+
 
 Attenuation and bending loss characteristics verified.
 
