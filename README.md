@@ -5,6 +5,8 @@
 
 **Aim:**  
 To measure propagation and bending losses for two wavelengths in plastic fiber.
+![WhatsApp Image 2025-11-28 at 10 03 37_dc24fbb2](https://github.com/user-attachments/assets/9462c000-99c1-4180-b3e6-734f4c3aa87d)
+
 
 **Equipments Required:**  
 - Link-B Kit  
@@ -26,6 +28,8 @@ V1/V2 = e [ -a (L1+L2 ) ]
 - Bend fiber and record output vs diameter  
 
 **Tabulation:**
+![WhatsApp Image 2025-11-28 at 10 03 37_c4e7dd43](https://github.com/user-attachments/assets/869d7387-6777-46c9-8426-be25d4313f1b)
+
 
 ### Propagation Loss
 
@@ -40,6 +44,8 @@ V1/V2 = e [ -a (L1+L2 ) ]
 |                  |                     |                        |
 
 **Result:**  
+![Uploading WhatsApp Image 2025-11-28 at 10.03.38_94bfff72.jpg…]()
+
 Attenuation and bending loss characteristics verified.
 
 ---
