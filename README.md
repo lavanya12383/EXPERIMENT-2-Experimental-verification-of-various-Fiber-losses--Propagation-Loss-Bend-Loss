@@ -5,7 +5,6 @@
 
 **Aim:**  
 To measure propagation and bending losses for two wavelengths in plastic fiber.
-![WhatsApp Image 2025-11-28 at 10 03 37_dc24fbb2](https://github.com/user-attachments/assets/9462c000-99c1-4180-b3e6-734f4c3aa87d)
 
 
 **Equipments Required:**  
@@ -16,54 +15,73 @@ To measure propagation and bending losses for two wavelengths in plastic fiber.
 - Fiber cables 
 
 **Theory:**  
+Optical Fibers are available in different variety of materials. These materials are usually selected by taking into account their absorption characteristics for different wavelengths of light. In case of Optical Fiber, since the signal is transmitted in the form of light which is completely different in nature as that of electrons, one has to consider the interaction of matter the radiation to study the losses in fiber. Losses are introduced in fiber due to various reasons. As light propagates from one end of Fiber to another end, part of it is absorbed in the material exhibiting absorption loss. Also part of the light is reflected back or in some other directions from the impurity particles present in the material contributing to the loss of the signal at the other end of the Fiber. In general terms it is know as propagation loss. Plastic Fibers have higher loss of the order of 180 dB/Km. Whenever the condition for angel of incidence of the incident lights is violated the losses are introduced due to refraction of light. This occurs when fiber is subjected to bending. Lower the radius of curvature more is the loss. Other losses are due to the coupling of Fiber at LED and photo detector ends.
 - Losses due to absorption, scattering, bending  
 - Plastic fiber loss ~180 dB/km  
 - Bending loss increases with reduced loop diameter  
 
 **Procedure:**  
-- Setup for 660nm and 950nm measurements  
-- Measure output voltages for 1m and 3m fibers  
-- Calculate attenuation \( a \) using:  
-V1/V2 = e [ -a (L1+L2 ) ] 
-- Bend fiber and record output vs diameter  
+
+▪ Connect the power supply with proper polarity to the kit link-B and switch it on.
+
+▪ Keep all Switch Faults in OFF position.
+
+▪ Keep switch SW8 towards TX position.
+
+▪ Keep switch SW9 towards TX1 position.
+
+▪ Keep Jumper JP5 towards +12V position.
+
+▪ Keep Jumpers JP6, JP9, JP10 shorted.
+
+▪ Keep Jumper JP8 towards sine position.
+
+▪ Keep Intensity control pot P2 towards minimum position.
+
+▪ Feed about 2Vpp sinusoidal signal of 1 KHz from the function generator to the IN post of Analog Buffer.
+image
+
+▪ Connect the output post OUT of Analog Buffer to the post TX IN of Transmitter.
+
+▪ Slightly unscrew the cap of SFH756V (660nm). Do not remove the cap from the connector. Once the cap is loosened, insert the one meter fiber into the cap. Now tighten the cap by screwing it back.
+
+▪ Connect the other end of the Fiber to detector SFH350V (Photo Transistor Detector) very carefully.
+
+▪ Observe the detected signal at post ANALOG OUT on oscilloscope. Adjust Intensity control pot P2 Optical Power control potentiometer so that you receive signal of 2Vpp amplitude.
+image
+
+▪ Measure the peak value of the received signal at ANALOG OUT terminal. Let this value be V1.
+
+▪ Now replace 1 meter Fiber by 3 Meter Fiber. Do not disturb any settings. Again take the peak voltage reading and let it be V2.
+
+▪ If a is the attenuation of the Fiber then we have. P1/P2 = V1/V2 = e [ -a (L1+L2 ) ] Where a = nepers/ Meter L1 = Fiber Length for V1 L2 = Fiber Length for V2 This a is for peak wavelength of 660nm ▪ Keep switch SW9 towards TX2 position.
+
+▪ Keep Jumper JP7 towards +12V position.
+
+▪ Remove fiber cable from SFH756V (660nm) & SFH350V and insert one meter fiber between SFH450V (950nm) & SFH350V.
+
+▪ Observe the detected signal at post ANALOG OUT on oscilloscope.
+
+▪ Measure the peak value of the received signal at ANALOG OUT terminal. Let this value be V1.
+
+▪ Now replace 1 meter Fiber by 3 Meter Fiber. Do not disturb any settings. Again take the peak voltage reading and let it be V2.
+
+▪ If a is the attenuation of the Fiber then we have. P1/P2 = V1/V2 = e [ -a (L1+L2 ) ] Where a = nepers/ Meter L1 = Fiber Length for V1 ; L2 = Fiber Length for V2 This a is for peak wavelength of 950nm ▪ Compare the two a values.
+
+MEASUREMENT OF BENDING LOSSES: ▪ Remove fiber cable from SFH450V (950nm) & SFH350V and insert one meter fiber between SFH756V (660nm) & SFH350V.
+
+▪ Bend the Fiber in a loop. Measure the amplitude of the received signal.
+
+▪ Keep reducing the diameter of bend to about 2 cm & take corresponding out voltage readings. (Do not reduce loop diameter less than 1 cm).
+
+▪ Plot a graph of the received signal amplitude versus the loop diameter.
 
 **Tabulation:**
-![WhatsApp Image 2025-11-28 at 10 03 37_c4e7dd43](https://github.com/user-attachments/assets/869d7387-6777-46c9-8426-be25d4313f1b)
+![515230975-c8cfba0d-e305-468d-b952-2a90842b2937](https://github.com/user-attachments/assets/a2068077-f787-433a-8781-359d71fccb14)
 
 
-### Propagation Loss
-
-| Fiber Length | Input Amplitude (V) | Output Amplitude (V) |
-|--------------|---------------------|------------------------|
-|              |                     |                        |
-
-### Bending Loss
-
-| Bending Diameter | Input Amplitude (V) | Output Amplitude (V) |
-|------------------|---------------------|------------------------|
-|                  |                     |                        |
 
 **Result:**  
-![WhatsApp Image 2025-11-28 at 10 03 38_94bfff72](https://github.com/user-attachments/assets/4730317c-8850-4fcf-a5ea-deef30651a27)
-
-![WhatsApp Image 2025-11-28 at 10 10 39_feaf3856](https://github.com/user-attachments/assets/a6708b07-40f8-43ee-b5cf-2e7aa3ec6682)
-![WhatsApp Image 2025-11-28 at 10 10 40_7f65c2cb](https://github.com/user-attachments/assets/da49e58c-7af2-4120-8ee1-15e22b080726)
-
-![WhatsApp Image 2025-11-28 at 10 10 40_df9fbab2](https://github.com/user-attachments/assets/d486ab7b-80bb-4c7d-8f2e-3ec402e982cd)
-
-![WhatsApp Image 2025-11-28 at 10 10 40_548db381](https://github.com/user-attachments/assets/66f4470e-3a68-4078-8192-afdb86c0d8df)
-![WhatsApp Image 2025-11-28 at 10 10 41_da5c81c6](https://github.com/user-attachments/assets/c0f60884-e333-4f9d-af58-e064631aa162)
-![WhatsApp Image 2025-11-28 at 10 10 41_dada8937](https://github.com/user-attachments/assets/125f7308-cde5-4dd9-89b3-3891f8463cbf)
-![WhatsApp Image 2025-11-28 at 10 10 42_0a9948be](https://github.com/user-attachments/assets/14412c1d-20dd-4ca7-a409-59e167cec166)
-![WhatsApp Image 2025-11-28 at 10 10 42_817830c0](https://github.com/user-attachments/assets/b0c435d2-0abe-4c39-8d8c-a36e0087d20a)
-![WhatsApp Image 2025-11-28 at 10 10 43_4cf0f18b](https://github.com/user-attachments/assets/a3e35365-eee7-4815-b78c-90747f2c88c3)
-
-![WhatsApp Image 2025-11-28 at 10 10 43_a12ea298](https://github.com/user-attachments/assets/339c63ff-7ec4-4efb-a277-59a28b9a2214)
-
-
-
-
-
 Attenuation and bending loss characteristics verified.
 
 ---
