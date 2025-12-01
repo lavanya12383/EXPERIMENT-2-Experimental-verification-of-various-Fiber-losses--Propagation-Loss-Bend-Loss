@@ -82,6 +82,12 @@ MEASUREMENT OF BENDING LOSSES: ▪ Remove fiber cable from SFH450V (950nm) & SFH
 **Tabulation:**
 ![515230975-c8cfba0d-e305-468d-b952-2a90842b2937](https://github.com/user-attachments/assets/a2068077-f787-433a-8781-359d71fccb14)
 
+### CALCULATION
+
+![515310651-06169d56-3c2b-45ed-8586-2fc2278f7f5b-1](https://github.com/user-attachments/assets/1a71fdb6-39bd-4be7-bbbf-ba636de9f102)
+
+![515310759-dc49a185-15f6-4c7f-bcbb-4ac8b5f1393a](https://github.com/user-attachments/assets/9589d6b1-6472-4fb1-8430-609a5e7296d4)
+
 
 
 **Result:**  
