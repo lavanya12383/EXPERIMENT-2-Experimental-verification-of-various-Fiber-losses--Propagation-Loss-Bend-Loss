@@ -13,6 +13,9 @@ To measure propagation and bending losses for two wavelengths in plastic fiber.
 - Oscilloscope  
 - Function Generator  
 - Fiber cables 
+## Block Diagram:
+<img width="784" height="416" alt="514879421-c58fc769-8d83-4524-be46-d47fffd36429" src="https://github.com/user-attachments/assets/6d5e0ddd-defb-4286-a3b9-6ded4164e8a4" />
+
 
 **Theory:**  
 Optical Fibers are available in different variety of materials. These materials are usually selected by taking into account their absorption characteristics for different wavelengths of light. In case of Optical Fiber, since the signal is transmitted in the form of light which is completely different in nature as that of electrons, one has to consider the interaction of matter the radiation to study the losses in fiber. Losses are introduced in fiber due to various reasons. As light propagates from one end of Fiber to another end, part of it is absorbed in the material exhibiting absorption loss. Also part of the light is reflected back or in some other directions from the impurity particles present in the material contributing to the loss of the signal at the other end of the Fiber. In general terms it is know as propagation loss. Plastic Fibers have higher loss of the order of 180 dB/Km. Whenever the condition for angel of incidence of the incident lights is violated the losses are introduced due to refraction of light. This occurs when fiber is subjected to bending. Lower the radius of curvature more is the loss. Other losses are due to the coupling of Fiber at LED and photo detector ends.
@@ -84,11 +87,3 @@ MEASUREMENT OF BENDING LOSSES: ▪ Remove fiber cable from SFH450V (950nm) & SFH
 **Result:**  
 Attenuation and bending loss characteristics verified.
 
----
-[exp2.pdf](https://github.com/user-attachments/files/23599087/exp2.pdf)
-
-[EXP2b.pdf](https://github.com/user-attachments/files/23599105/EXP2b.pdf)
-
-[exp 2c.pdf](https://github.com/user-attachments/files/23599107/exp.2c.pdf)
-
-[exp2d.pdf](https://github.com/user-attachments/files/23599109/exp2d.pdf)
